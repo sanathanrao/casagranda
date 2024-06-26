@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+}
+.logo{
+    line-height: 80px;
+    margin: 30px;
+    padding-left: 25px;
+}
+nav{
+    border-bottom: 1px solid #6D6D6D ;
+    padding-bottom: 16px;
+}
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 8px;
+}
+nav ul li a{
+    color: #6D6D6D;
+    font-size: 18px;
+    font-weight: 500;
+    padding:  14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav span{
+    color: #ffffff;
+}
+.btn {
+  color: #000000;
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px ;
+  border-radius: 60px;
+  margin-left: 240px;
+}
+/* ----------------HOME--------------------- */
+.home{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+
+}
+.home-heading{
+    font-size: 50px;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+}
+.home-para{
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #909090;
+    line-height: 30px;
+    padding-top: 20px;
+}
+.frames{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px; 
+ 
+}
+.frames img{
+  margin-right: 20px;
+  overflow-x: hidden;
+  
+}
+.frame6{
+    border-radius: 15px;
+    border: 2px solid #6D6D6D;
+} 
+/* -------------------partners------------------------ */
+.ourpartners{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+}
+.partner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0;
+    border-top: 1px solid #6D6D6D;
+    border-bottom: 1px solid #6D6D6D;
+    padding: 20px;
+}
+.partner img{
+    object-fit: cover;
+}
+/* --------------------kitchen------------------------------------- */
+.kitchen{
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 1rem 6rem;
+    color: #ffffff;
+}
+.kitchen-text{
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+}
+.kitchenplaybtn img{
+    position: relative;
+    left: 30px;
+    bottom: 80px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.playtext{
+  position: relative;
+  left: 110px;
+  bottom: 130px;
+  background-color: transparent;
+}
+.kitchen-img .main{
+    border-radius: 10px;
+}
+.kitchen-heading{
+    font-size: 38px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;   
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.kitchen-lines{
+    color: #6D6D6D;
+    font-family: "Varela Round", sans-serif;
+    line-height: 25px;
+    font-size: 16px;
+    width: 60%;
+    margin-bottom: 40px;
+
+}
+
+.kitchenbtn{
+  font-family: "Varela Round", sans-serif;
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 10px 30px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  border: 1px solid #ffffff;
+}
+
+.kitchenbtn:focus {
+  text-decoration: none;
+}
+
+.kitchenbtn:hover {
+  text-decoration: none;
+}
+
+.kitchenbtn:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.kitchenbtn:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
+}
